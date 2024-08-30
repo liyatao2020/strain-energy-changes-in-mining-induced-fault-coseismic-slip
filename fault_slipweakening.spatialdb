@@ -1,0 +1,27 @@
+// -*- C++ -*- (syntax highlighting)
+#SPATIAL_GRID.ascii 1
+SimpleGridDB {
+  num-x = 1
+  num-y = 6
+  num-values = 4
+  value-names =  static-coefficient  dynamic-coefficient  slip-weakening-parameter  cohesion
+  value-units =  none  none  m  Pa
+  space-dim = 2
+  cs-data = cartesian {
+    to-meters = 1
+    space-dim = 2
+  }
+} // SimpleGridDB
+
+// x coordinate
+0.0
+
+// y coordinate
+-1000 150 151 850 851 10000
+
+0.0  -1000  0.7  0.6    2.0e-2  0
+0.0   150   0.7  0.6    2.0e-2  0
+0.0   151   0.7  0.6    2.0e-2  0
+0.0   850   0.7  0.6    2.0e-2  0
+0.0   851   0.7  0.6    2.0e-2  0
+0.0  10000  0.7  0.6    2.0e-2  0

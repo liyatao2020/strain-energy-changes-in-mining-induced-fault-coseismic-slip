@@ -1,0 +1,42 @@
+// -*- C++ -*- (syntax highlighting)
+//
+// This spatial database specifies the distribution of initial fault
+// tractions on the subducting interface.
+// 
+// We specify depth-dependent fault tractions with higher values in
+// the stable sliding regions consistent with residual stresses in
+// those regions.
+//
+#SPATIAL_GRID.ascii 1
+SimpleGridDB {
+  num-x = 1
+  num-y = 6
+  num-values = 2
+  value-names =  traction-shear traction-normal
+  value-units =  MPa  MPa
+  space-dim = 2
+  cs-data = cartesian {
+    to-meters = 1
+    space-dim = 2
+  }
+} // SimpleGridDB
+
+// x coordinate
+0.0
+
+// y coordinate
+-10000 449 450 500 501 10000
+
+// Columns are
+// (1) x coordinate (km)
+// (2) y coordinate (km)
+// (3) shear traction (MPa)
+// (4) normal traction (MPa)
+0.0   -10000    0   0
+0.0   449       0   0
+0.0   450       0   0
+0.0   500       0   0
+0.0   501       0   0
+0.0   10000     0   0
+
+

@@ -1,0 +1,16 @@
+*.h5  
+*.xmf  
+# *.exo  
+*.csv  
+*.json
+*.zip
+*.vtk
+*.gz
+*.png
+*.jpg
+*back
+*.pvtmp/
+*.mp4
+output/
+*.jou
+*.sh
