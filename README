@@ -1,0 +1,18 @@
+
+### Table 1: Mechanical Parameters in the Numerical Model
+
+| Parameters                       | Values                            | Parameters                           | Values                            |
+|----------------------------------|-----------------------------------|--------------------------------------|-----------------------------------|
+| Young’s modulus, E (GPa)         | 15                                | Mining thickness (m)                 | 10                                |
+| Poisson’s ratio, ν               | 0.25                              | Mining distance, Dm (m)              | -210 to 210                       |
+| Shear modulus, G (GPa)           | 6.5                               | Panel width (m)                      | 200                               |
+| Cohesion stress, C (MPa)         | (0)<sup>c</sup>                   | Dynamic friction coefficient, μd     | 0.6                               |
+| Density, ρ (kg/m³)               | 2400                              | Static friction coefficient, μs      | 0.7 (0.6)<sup>a</sup>             |
+| Background stress ratio, rb      | 2                                 | Critical slip distance, Dc (m)       | 0.02                              |
+| Depth, h (m)                     | 0-1600                            | Fault dip angle, φ (°)               | 30 (increments of 10° from 20° to 80°)<sup>b</sup> |
+| Mining level (m)                 | 1000                              |                                      |                                   |
+
+**Note**:
+- <sup>a</sup> The value is used to analyze the influence of μ on MCF.
+- <sup>b</sup> The values are used to analyze the influence of φ on VF.
+- <sup>c</sup> In this study, we assume that the cohesion along the fault is zero, which is a common simplification frequently applied in modeling shallow earthquakes (e.g., Buijze et al. 2019).
