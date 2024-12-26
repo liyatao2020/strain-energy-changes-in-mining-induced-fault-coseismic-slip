@@ -1,0 +1,49 @@
+// -*- C++ -*- (tell Emacs to use C++ mode for syntax highlighting)
+//
+// This spatial database specifies the distribution of the
+// tractions for Neumann boundary conditions associated
+// with shear in the xy plane and normal tractions on +x.
+//
+#SPATIAL.ascii 1
+SimpleDB {
+  num-values = 2
+  value-names =  traction-shear traction-normal
+  value-units = Pa Pa 
+  num-locs = 24
+  data-dim = 1 // location is a line
+  space-dim = 2
+  cs-data = cartesian {
+    to-meters = 1 // specify coordinates in km
+    space-dim = 2
+  }
+}
+// Columns are
+// (1) x coordinate (km)
+// (2) y coordinate (km)
+// (4) T-shear
+// (6) T-normal (Pa)
+2400	1175	     0               -19992000
+2400	1125	     0               -22344000
+2400	1075	     0               -24696000
+2400	1025	     0               -27048000
+2400	975	       0               -29400000
+2400	925	       0               -31752000
+2400  875	       0               -34104000
+2400	825	       0               -36456000
+2400	775	       0               -38808000
+2400	725	       0               -41160000
+2400	675	       0               -43512000
+2400	625	       0               -45864000
+2400	575	       0               -48216000
+2400	525	       0               -50568000
+2400	475	       0               -52920000
+2400	425	       0               -55272000
+2400	375	       0               -57624000
+2400	325	       0               -59976000
+2400	275	       0               -62328000
+2400	225	       0               -64680000
+2400	175	       0               -67032000
+2400	125	       0               -69384000
+2400	75	       0               -71736000
+2400	25	       0               -74088000
+
